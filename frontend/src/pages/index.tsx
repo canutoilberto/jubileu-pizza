@@ -72,7 +72,7 @@ export default function Home() {
             </Button>
           </form>
           <Link href="/signup">
-            <a className={styles.text}>Não possui uma conta? Cadastre-se!</a>
+            <a className={styles.text}>Não é um amigo? Seja!</a>
           </Link>
         </div>
       </div>

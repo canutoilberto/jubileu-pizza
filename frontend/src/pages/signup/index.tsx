@@ -80,7 +80,7 @@ export default function SignUp() {
             </Button>
           </form>
           <Link href="/">
-            <a className={styles.text}>Já possui uma conta? Faça o login!</a>
+            <a className={styles.text}>Você já é um amigo? Obrigado, amigo!</a>
           </Link>
         </div>
       </div>
