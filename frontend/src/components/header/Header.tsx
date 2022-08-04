@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import styles from './styles.module.scss'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { FiLogOut } from 'react-icons/fi'
 
@@ -14,7 +15,7 @@ export function Header(){
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
         <Link href={'/dashboard'}>
-          <img src='/logo.svg' width={180} height={58}/>
+          <Image src='/logo.svg' alt='jubileuLogo' width={180} height={58}/>
         </Link>
         <nav className={styles.menuNav}>
           <Link href='/category'>
